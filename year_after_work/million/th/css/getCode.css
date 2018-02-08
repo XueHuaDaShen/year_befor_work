@@ -47,6 +47,7 @@ ul, ol, li {
   text-align: right;
   font-size: .32rem;
   margin-bottom: 2%;
+  color: #CC1177;
 }
 .get-code-wrap .code-crad .life-icon {
   width: 28.1%;
@@ -57,8 +58,8 @@ ul, ol, li {
   margin-top: 2%;
 }
 .get-code-wrap .code-crad .invite-code {
-  color: #fff;
-  font-size: .88rem;
+  color: #CC1177;
+  font-size: .9rem;
 }
 .get-code-wrap .invite-text {
   width: 86.7%;
@@ -69,7 +70,7 @@ ul, ol, li {
   font-size: .26rem;
 }
 .get-code-wrap .get-code-btn {
-  width: 60.3%;
+  width: 69.3%;
   height: 6.4%;
   display: -webkit-box;
   -webkit-box-pack: center;

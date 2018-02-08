@@ -6,12 +6,12 @@
 const state = {
     tabIndex: 0,
     // 阿里云
-    rootUrl: 'http://123.56.6.6:9000/api/v1',
-    rootUrl3: 'http://123.56.6.6:8018/api/v1/man',
+    // rootUrl: 'http://123.56.6.6:9000/api/v1',
+    // rootUrl3: 'http://123.56.6.6:8018/api/v1/man',
 
     // 线上
-    // rootUrl: 'https://dee.tutulive.tv:8443/api/v1',
-    // rootUrl3: 'https://dee.tutulive.tv:8446/api/v1/man',
+    rootUrl: 'https://dee.tutulive.tv:8443/api/v1',
+    rootUrl3: 'https://dee.tutulive.tv:8446/api/v1/man',
 
     // rootMenu: 'manage',
     // menus: [],

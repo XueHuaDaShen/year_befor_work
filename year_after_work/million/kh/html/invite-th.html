@@ -12,6 +12,7 @@
     <div class="invite-code-wrap">
         <div class="invite-user">
             <div class="user-avatar"><img src=""></div>
+            <div class="user-name"></div>
             <div class="invite-code"></div>
             <!-- <div class="invite-code">BK06Z0</div> -->
             <div class="invite-txt">ใส่ code ของฉันเลย ตอบผิดข้อไหนเล่นต่อได้ทันที</div>
@@ -53,6 +54,7 @@ $(function(){
                 if(code == 200){
                     // userDataCB(obj);
                     $(".invite-code").html(data.data.revive_code);
+                    $(".user-name").html(data.data.loginname);
                     var ava = '';
                     if( data.data.avatar ){
                         ava = data.data.avatar;

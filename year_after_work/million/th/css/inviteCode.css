@@ -37,7 +37,7 @@ ul, ol, li {
   position: absolute;
   left: 6.4%;
   top: 45.4%;
-  background: #272727;
+  border: .01rem solid #343434;
   border-radius: 10px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -46,7 +46,7 @@ ul, ol, li {
 }
 .invite-code-wrap .invite-user .user-avatar {
   width: 20%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 .invite-code-wrap .invite-user .user-avatar img {
   width: 100%;
@@ -54,19 +54,23 @@ ul, ol, li {
   border-radius: 50%;
   overflow: hidden;
 }
+.invite-code-wrap .invite-user .user-name {
+  color: #fff;
+  font-size: .44rem;
+}
 .invite-code-wrap .invite-user .invite-code {
-  font-size: .88rem;
-  margin-bottom: 4%;
+  font-size: .9rem;
+  color: #CC1177;
 }
 .invite-code-wrap .invite-user .invite-txt {
   color: #646464;
   font-size: .26rem;
 }
 .invite-code-wrap .start-answer {
-  width: 60.3%;
+  width: 69.3%;
   height: 6.4%;
   position: absolute;
-  left: 19.9%;
+  left: 15.3%;
   top: 81.7%;
   display: -webkit-box;
   -webkit-box-pack: center;

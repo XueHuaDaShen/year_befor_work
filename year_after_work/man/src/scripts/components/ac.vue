@@ -556,6 +556,7 @@ export default {
             this.showHTMLUrl = url||'地址不存在';
         },
         resetUpdate(type, act, title, id, url, img, level, enabled, start_at, stop_at, max_votes, cc) {
+            const that = this;
             var startTime = moment(start_at).format('YYYY-MM-DD HH:mm:ss');
             var stopTime = moment(stop_at).format('YYYY-MM-DD HH:mm:ss');
             this.upTips1 = '';

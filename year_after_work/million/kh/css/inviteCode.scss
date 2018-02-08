@@ -32,7 +32,8 @@ ul,ol,li{
         position: absolute;
         left:6.4%;
         top:45.4%;
-        background:#272727;
+        // background:#272727;
+        border:.01rem solid #343434;
         border-radius:10px;
         display:-webkit-box;
         -webkit-box-orient:vertical;
@@ -40,7 +41,7 @@ ul,ol,li{
         -webkit-box-align:center;
         .user-avatar{
             width:20%;
-            margin-bottom:5%;
+            margin-bottom:1%;
             img{
                 width:100%;
                 height:100%;
@@ -48,9 +49,14 @@ ul,ol,li{
                 overflow:hidden;
             }
         }
+        .user-name{
+            color:#fff;
+            font-size:.44rem;
+        }
         .invite-code{
-            font-size:.88rem;
-            margin-bottom:4%;
+            font-size:.9rem;
+            // margin-bottom:4%;
+            color:#CC1177;
         }
         .invite-txt{
             color:#646464;
@@ -58,10 +64,10 @@ ul,ol,li{
         }
     }
     .start-answer{
-        width:60.3%;
+        width:69.3%;
         height:6.4%;
         position: absolute;
-        left:19.9%;
+        left:15.3%;
         top:81.7%;
         display:-webkit-box;
         -webkit-box-pack:center;

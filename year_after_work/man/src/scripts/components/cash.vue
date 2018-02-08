@@ -295,7 +295,8 @@ export default {
                     "order_no": that.searchOrder,
                     "start_at": that.beginTime,
                     "stop_at": that.endTime,
-                    "pid": that.searchPid
+                    "pid": that.searchPid,
+                    "cc": that.cc
                 },
                 success: function(data){
                     let code = data.returncode;

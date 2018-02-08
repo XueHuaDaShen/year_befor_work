@@ -23,8 +23,9 @@ ul,ol,li{
     padding-top:5%;
     display:-webkit-box;
     -webkit-box-orient:vertical;
-    background:url("../img/share_bj.png") no-repeat;
-    background-size:100% 100%;
+    // background:url("../img/share_bj.png") no-repeat;
+    // background-size:100% 100%;
+    background:#191919;
     .header{
         display:-webkit-box;
         -webkit-box-pack:center;
@@ -42,7 +43,8 @@ ul,ol,li{
         width:87.2%;
         min-height:33%;
         margin:0 auto;
-        background:#272727;
+        // background:#272727;
+        border:.01rem solid #343434;
         border-radius:10px;
         margin-top:5%;
         display:-webkit-box;
@@ -79,7 +81,7 @@ ul,ol,li{
         }
     }
     .start-answer{
-        width:60.3%;
+        width:69.3%;
         height:6.4%;
         margin:0 auto;
         display:-webkit-box;
